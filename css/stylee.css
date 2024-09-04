@@ -1,0 +1,150 @@
+a {
+    text-decoration: none !important;
+}
+body {
+    overflow-x: hidden;
+}
+ul li{
+    list-style: none;
+}
+
+.me-11 {
+    margin-right: -8rem !important;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(150deg, #0dcaf0, #bc0fe5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    text-fill-color: transparent !important;
+}
+
+.element-hover:hover{
+    transition: .2s ease-in !important;
+    opacity: 0.5 !important;
+}
+.elementho2:hover{
+border: 1px solid rgb(13,202,240) !important;
+border-radius: 0.375rem;
+transform: scale(1.1);
+transition: .3s ease !important;
+color: rgb(13,202,240) !important;;
+}
+
+.top-0 {
+    top: 10% !important;
+} 
+
+
+.mx-4 h3 {
+    color: #fff;
+}
+a.nav-link.dropdown-toggle.text-dark {
+    border: 2px solid #0dcaf0;
+    border-radius: 5px;
+}
+
+
+.image-eman {
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/pyramid-complex-aswan-city-by-nile-aerial-view-egypt-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+}
+
+img.card-img-top.px-2 {
+    height: 400px;
+}
+
+.box-after::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #0d6efd63;
+}
+
+.box-after:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: .8s;
+}
+
+.box-after::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0d6efd63;
+}
+.box-after:hover::before{
+    width: 100%;
+    height: 100%;
+    transition: .8s;
+}
+
+.card-body img {
+    width: 50;
+    width: 120px;
+    border-radius: 50%;
+    height: 160px;
+}
+
+img.card-img-top.px-2.rounded-2 {
+    border-radius: 10% !important;
+}
+
+.scale-hover:hover {
+    transform: scale(.9);
+    transition: .3s ease;
+}
+
+
+img.img-fluid.rounded-start {
+    transform: skewX(6deg);
+}
+
+h3.card-title.py-2.text-info.border-bottom.border-2.border-primary {
+    width: fit-content;
+}
+.col-md-4.rounded-2 img {
+    height: 324px;
+}
+
+.btn-hover:hover {
+    transition: .4s ease-in !important;
+    background-color: #0dcaf0 !important;
+}
+
+@media(max-width:767px){
+    a.nav-link.text-white.bg-info.rounded {
+        margin: 1rem 0;
+        padding: 3%;
+    }
+    img.img-fluid.rounded-start {
+        transform: skewX(0deg);
+    }
+}
+
+@media(min-width:767px){
+    .card-width{
+        width: 33% !important;
+    }
+    .row.g-5.px-4.boxs {
+        justify-content: space-evenly;
+    }
+    
+}
